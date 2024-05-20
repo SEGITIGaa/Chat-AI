@@ -8,13 +8,13 @@ const FormInput = ({ Submited }) => {
         name=""
         id=""
         placeholder="Ask me anything"
-        className="font-semibold text-white w-full px-4 py-2 ring-2 outline-none bg-neutral-900 ring-neutral-950 rounded-lg"
+        className="font-semibold text-neutral-300 w-full px-4 py-2 ring-2 outline-none bg-neutral-900 ring-neutral-950 rounded-lg"
       />
       <button
         type="submit"
         className="bg-white rounded-lg px-4 py-2 text-lg text-neutral-900 font-semibold"
       >
-        tanyain
+       <img width="32" height="32" src="https://img.icons8.com/fluency-systems-filled/96/sent.png" alt="sent" className="-rotate-45"/>
       </button>
     </form>
   );

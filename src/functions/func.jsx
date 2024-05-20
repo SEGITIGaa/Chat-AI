@@ -9,8 +9,7 @@ export function useFetchAnswer(){
         `https://groqapi-man.vercel.app/?q=${question}`
       );
       const data = await response.json();
-      setAnswer(data.answer === 'tambahkan ?q= untuk memberikan pertanyaan' ? "haloo" : data.answer);
-      console.log(data);
+     validation(data.answer)
     };
   
     useEffect(() => {
@@ -22,6 +21,14 @@ export function useFetchAnswer(){
       const value = e.target.querySelector("input").value;
       setQuestion(value);
     };
+
+    const validation = (e) => {
+        if (e === 'tambahkan ?q= untuk memberikan pertanyaan' ) {
+            setAnswer('haiii kamu gimana kabarnya? mau nanya apa nihh 😘');
+        }else {
+          setAnswer(e);
+        }
+    }
 
     return {Submited, answer}
 }
