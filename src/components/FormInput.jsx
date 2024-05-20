@@ -7,12 +7,12 @@ const FormInput = ({ Submited }) => {
         type="search"
         name=""
         id=""
-        placeholder="Ask me anything"
+        placeholder="ask to usep"
         className="font-semibold text-neutral-900 bg-neutral-700 w-full p-4 outline-none rounded-xl"
       />
       <button
         type="submit"
-        className="bg-white rounded-xl p-4 text-lg text-neutral-900 font-semibold"
+        className="bg-neutral-200 rounded-xl p-3 ring-2 ring-white text-lg text-neutral-900 font-semibold"
       >
        <img width="32" height="32" src="https://img.icons8.com/fluency-systems-filled/96/sent.png" alt="sent" className="-rotate-45"/>
       </button>

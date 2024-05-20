@@ -7,3 +7,10 @@
     @apply  hidden;
   }
 }
+
+@layer base {
+  @font-face {
+    font-family: 'ClashDisplay';
+    src: url(/public/font/ClashDisplay-Variable.ttf);
+  }
+}
