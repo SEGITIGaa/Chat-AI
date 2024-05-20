@@ -2,7 +2,7 @@ import React from "react";
 
 const FormInput = ({ Submited }) => {
   return (
-    <form action="" onSubmit={Submited} className="flex items-center gap-4">
+    <form action="" onSubmit={Submited} className="flex items-center gap-4 w-full">
       <input
         type="search"
         name=""

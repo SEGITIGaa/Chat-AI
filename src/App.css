@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
+@layer utilities{
   *::-webkit-scrollbar{
-    display: none;
+    @apply  hidden;
   }
 }
